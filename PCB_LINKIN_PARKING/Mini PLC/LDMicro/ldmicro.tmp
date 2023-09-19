@@ -1,0 +1,9 @@
+RUNG 9
+  CONTACTS R10m 0 0
+  PARALLEL
+    COIL Ye0 1 0 0 0
+    MOVE PORTD 0xff
+    COIL Ye0 0 0 0 0
+    MOVE PORTD 0xff
+  END
+END
